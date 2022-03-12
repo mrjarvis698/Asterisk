@@ -6,7 +6,7 @@ def main():
     main_window = Tk()
     main_window.geometry("1024x768")
     main_window.state('zoomed')
-    main_window.overrideredirect(True)
+    main_window.overrideredirect(False)
     Label(main_window, text="Hello World").pack()
     main_window.mainloop()
 
